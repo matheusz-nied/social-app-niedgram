@@ -1,0 +1,20 @@
+- `$ npm create vite@latest ./`
+- `$ npm install -D tailwindcss postcss autoprefixer`
+- `$ npx tailwindcss init -p`
+- `$ npm i -D tailwindcss-animate`
+- `$ npm i react-router-dom`
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
+- ``
