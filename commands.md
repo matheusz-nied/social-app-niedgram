@@ -3,11 +3,11 @@
 - `$ npx tailwindcss init -p`
 - `$ npm i -D tailwindcss-animate`
 - `$ npm i react-router-dom`
-- ``
-- ``
-- ``
-- ``
-- ``
+- `$ npm i -D @types/node`
+- `npx shadcn-ui@latest init`
+- `npx shadcn-ui@latest add button`
+- `$ npx shadcn-ui@latest add form`
+- `$ npx shadcn-ui@latest add input`
 - ``
 - ``
 - ``
