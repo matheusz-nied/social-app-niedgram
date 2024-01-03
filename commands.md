@@ -8,7 +8,7 @@
 - `npx shadcn-ui@latest add button`
 - `$ npx shadcn-ui@latest add form`
 - `$ npx shadcn-ui@latest add input`
-- ``
+- `$ npm install appwrite`
 - ``
 - ``
 - ``
