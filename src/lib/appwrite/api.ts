@@ -89,9 +89,36 @@ export async function createPost(post: INewPost) {
   try {
     const uploadedFile = await uploadFile(post.file[0]);
 
-    if (!uploadFile) throw Error;
+    if (!uploadedFile) throw Error;
 
     const fileUrl = getFilePreview(uploadedFile.$id);
+
+    if (!fileUrl) {
+      deleteFile(uploadedFile.$id);
+      throw Error;
+    }
+
+    const tags = post.tags?.replace(/ /g, "").split(",") || [];
+
+    const newPost = await databases.createDocument(
+      appwriteConfig.databaseId,
+      appwriteConfig.postCollectionId,
+      ID.unique(),
+      {
+        creator: post.userId,
+        caption: post.caption,
+        imageUrl: fileUrl,
+        imageId: uploadedFile.$id,
+        location: post.location,
+        tags: tags,
+      }
+    );
+    if (!newPost) {
+      await deleteFile(uploadedFile.$id);
+      throw Error;
+    }
+
+    return newPost;
   } catch (error) {
     console.log(error);
   }
@@ -121,6 +148,16 @@ export async function getFilePreview(fileId: string) {
       100
     );
     return fileUrl;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+export async function deleteFile(fileId: string) {
+  try {
+    await storage.deleteFile(appwriteConfig.storageId, fileId);
+
+    return { status: "ok" };
   } catch (error) {
     console.log(error);
   }
