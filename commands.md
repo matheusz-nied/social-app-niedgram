@@ -11,7 +11,7 @@
 - `$ npm install appwrite`
 - `$ npx shadcn-ui@latest add toast`
 - `$ npm i @tanstack/react-query`
-- ``
+- `$ npm install react-dropzone`
 - ``
 - ``
 - ``
