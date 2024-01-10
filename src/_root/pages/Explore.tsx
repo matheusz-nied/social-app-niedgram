@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import useDebounce from "@/hooks/useDebounce";
 import { useGetPosts, useSearchPosts } from "@/lib/react-query/queriesAndMutations";
 import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 
 export type SearchResultProps = {
