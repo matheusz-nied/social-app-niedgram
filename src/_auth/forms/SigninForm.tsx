@@ -112,7 +112,7 @@ const SigninForm = () => {
               to="/sign-up"
               className="text-primary-500 text-small-semibold ml-1"
             >
-              Sign up
+              Sign in
             </Link>
           </p>
         </form>
