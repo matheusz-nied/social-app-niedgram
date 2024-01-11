@@ -1,22 +1,46 @@
 # Social App - Desenvolvimento de Aplicação Social Moderna
 
-Este projeto, inspirado no Instagram, é o resultado de um curso prático conduzido por Adrian Hajdin. A aplicação apresenta uma interface de usuário atraente, proporcionando uma experiência nativa para dispositivos móveis. Abaixo, destaco as principais tecnologias utilizadas e o que aprendi durante o desenvolvimento deste projeto.
+Este projeto, inspirado no Instagram, é o resultado de um curso prático conduzido por pelo Javascript Mastery onde construimos uma aplicação Full-stack com Next.Js. A aplicação apresenta uma interface de usuário atraente, proporcionando uma experiência nativa para dispositivos móveis. Abaixo, destaco as principais tecnologias utilizadas e o que aprendi durante o desenvolvimento deste projeto.
+
+## visualização projeto
+
+
+### Login
+![Login](./public/assets/images/1.jpg)
+
+
+### Feed
+
+![Feed](./public/assets/images/2.jpg)
+
+
+### Criação Post
+
+![Create](./public/assets/images/3.jpg)
+
+
+### Explorar
+
+![Explore](./public/assets/images/4.jpg)
 
 ## Tecnologias Utilizadas
 
 - **ReactJs:** Utilizei a versão mais recente do React para explorar suas funcionalidades mais avançadas e desenvolver uma aplicação moderna e eficiente.
 
+- **Next.js 14:** Implementei o framework React para renderização do lado do servidor, facilitando a criação de aplicações web robustas.
+
 - **Appwrite:** Integrado para autenticação, armazenamento e gerenciamento de banco de dados, proporcionando um backend sem servidor.
 
 - **TypeScript:** Adotei TypeScript para adicionar tipagem estática ao JavaScript, melhorando a manutenibilidade e prevenindo erros.
 
-- **Next.js 14:** Implementei o framework React para renderização do lado do servidor, facilitando a criação de aplicações web robustas.
 
 ## O Que Aprendi
 
 - **Desenvolvimento Full-Stack:** Tornei-me proficiente na criação de uma aplicação web completa, desde configuração do ambiente até a implantação.
 
 - **Exploração do React:** Aprofundei meus conhecimentos no React, explorando recursos avançados e aprimorando minhas habilidades de desenvolvimento.
+
+- **Exploração do Next.js 14:** Aprofundei meus conhecimento nas mais novas features do Next.js 14.
 
 - **Integração com Appwrite:** Aprendi a integrar e utilizar uma plataforma sem servidor para autenticação e gerenciamento de dados.
 
