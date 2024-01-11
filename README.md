@@ -2,7 +2,7 @@
 
 Este projeto, inspirado no Instagram, é o resultado de um curso prático conduzido por pelo Javascript Mastery onde construimos uma aplicação Full-stack com Next.Js. A aplicação apresenta uma interface de usuário atraente, proporcionando uma experiência nativa para dispositivos móveis. Abaixo, destaco as principais tecnologias utilizadas e o que aprendi durante o desenvolvimento deste projeto.
 
-## visualização projeto
+## Visualização projeto
 
 
 <h3 align="center">Login</h3>
