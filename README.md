@@ -5,23 +5,30 @@ Este projeto, inspirado no Instagram, é o resultado de um curso prático conduz
 ## visualização projeto
 
 
-### Login
+<h3 align="center">Login</h3>
+<p align="center">
 <img align="center" src="./public/assets/images/1.jpg" alt="Login" width="200"/>
+</p> 
 
 
-### Feed
-
+<h3 align="center">Feed</h3>
+<p align="center">
 <img src="./public/assets/images/2.jpg" alt="Feed" width="200"/>
+</p>
 
 
-### Criação Post
 
-<img src="](./public/assets/images/3.jpg" alt="Create" width="200"/>
+<h3 align="center">Criação Post</h3>
+
+<p align="center">
+<img src="./public/assets/images/3.jpg" alt="Create" width="200"/>
+</p>
 
 
-### Explorar
-
+<h3 align="center">Explorar</h3>
+<p align="center">
 <img src="./public/assets/images/4.jpg" alt="Explore" width="200"/>
+</p>
 
 ## Tecnologias Utilizadas
 
