@@ -6,22 +6,22 @@ Este projeto, inspirado no Instagram, é o resultado de um curso prático conduz
 
 
 ### Login
-![Login](./public/assets/images/1.jpg)
+<img align="center" src="./public/assets/images/1.jpg" alt="Login" width="200"/>
 
 
 ### Feed
 
-![Feed](./public/assets/images/2.jpg)
+<img src="./public/assets/images/2.jpg" alt="Feed" width="200"/>
 
 
 ### Criação Post
 
-![Create](./public/assets/images/3.jpg)
+<img src="](./public/assets/images/3.jpg" alt="Create" width="200"/>
 
 
 ### Explorar
 
-![Explore](./public/assets/images/4.jpg)
+<img src="./public/assets/images/4.jpg" alt="Explore" width="200"/>
 
 ## Tecnologias Utilizadas
 
